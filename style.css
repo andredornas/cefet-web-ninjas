@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+img, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#logo{
+  width: 200px;
+  padding: 0 0 0 0;
+}
+
+body{
+  margin: 10px 10% 10px 10%;
+  background-color: #ffd6cc;
+  font-family: 'Arial';
+}
+
+h1, h2{
+  font-family: 'Shadows Into Light', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+a:link{
+  color: darkred;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:active {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+a.linkExterno {
+  background-image: url("img/globo.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+em.notas {
+  opacity: 0.60;
+}
+
+strong {
+  color: #990000;
+}
+
+.numero{
+  background-color: #ffb3b3;
+  padding: 2px 12px 2px 12px;
+  font-size: 30pt;
+}
+
+.passo {
+  font-size: 20px;
+}
